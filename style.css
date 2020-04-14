@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+html {
+    font-size: 62.5%; /* Setting 1rem to 10px */
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    height: 100vh;
+    color: rgba(43, 40, 40, 0.979);
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    margin: .8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5rem;
+}
+
+/* Cursor effect */
+
+.typing-text > .typing-text--characters {
+    border-right: .3rem solid #777;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 75rem) {
+    h1 {
+        font-size: 6.4rem;
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .container {
+        padding: 0 1.5rem;
+    }
+    
+    h1 {
+        font-size: 4.8rem;
+    }
+}
+
+@media screen and (max-width: 31.25rem) {
+    h1 {
+        font-size: 3.2rem;
+    }
+}
