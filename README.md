@@ -4,4 +4,4 @@ A small typewriting effect that you see very often these days on personal/portfo
 
 
 ## Screenshot
-<img src="https://s6.gifyu.com/images/typewriter.gif height=300>
+<img src="https://s6.gifyu.com/images/typewriter.gif" height=300>
